@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>목록 실습</title>
+<body>
+    <!--순서가 있는 목록  <o1>   -->
+    <ol>
+        <h1>Html 공부</h1>
+        <li>제목단락태그</li>
+        <ul>
+            <li>h1 ~ h6 태그</li>
+            <li>p 태그</li>
+            <li>br 태그</li>
+        </ul>
+        <li>span, em, strong 태그</li>
+        <ul>
+            <li>span 태그 span style = "color:red" /span </li>
+            <li>em 태그 기울어진 강조</li>
+            <li>strong 태그  강한강조</li>
+        </ul>
+        <li>img 태그</li>
+        <ul>
+            <li>이미지 삽입 img src = xxx alt= width= height=</li>
+        </ul>
+        <li>목록 태그</li>
+        <ul>
+            <li>순서가 있는 목록 ol  </li>
+            <li>순서가 없는 목록 ul </li>
+            <li>정의 목록 dl정의 dd 설명 </li>
+        </ul>
+        <li>중첩목록</li>
+        <ul>
+            <li>목록 안에 목록</li>
+            <li>ul, ol, dl 태그 중첩</li>
+        </ul>
+        <li>테이블 태그</li>
+        <ul>
+            <li>테이블 생성 table / border = "1" 테두리 생성</li>
+            <li>행 생성 tr</li>
+            <li>열 생성 td</li>
+            <li>머리글 생성 th 두껍게</li>
+            <li>머리글 제목 caption</li>
+            <li>열 합치기 colspan</li>
+            <li>행 합치기 rowspan</li>
+        </ul>
+        <li>링크태그</li>
+        <ul>
+            <li>링크 생성 a href = "링크주소"</li>
+            <li>새창으로 열기 target = "_blank"</li>
+            <li>임시 링크 #</li>
+        </ol>
+    <div>
+        <!--순서가 없는 목록 <u1> -->
+        <ul>
+            <h1>토트넘</h1>
+            <li>손흥민</li>
+                <ul>
+                    <li> <img src = "https://i.namu.wiki/i/WWd-DYa5HvjybwjTZ3CM7ABO9luD4fuMjInHD5S0sJ9Ehe3KUBANE6r0-J3zQln82oQUuFGmECVdvVuObIE67OZpOm0QOV5in7qLopQ2Zxgl31CUFEYIbs0Yr7nVJG6SaQIT0LKCsLILPITB63ROjA.webp" alt="손흥민" weight = "200" height ="200" ></li>
+                    <li>좌윙</li>
+                    <li>공격수</li>
+                    <li>주장</li>
+                    <li>한국인</li>
+                </ul>
+            <br>
+            <li>솔랑캐</li>
+            <ul>
+                <li> <img src = "https://i.namu.wiki/i/qMv34ZCkAljsUU3-O3LOyRTXw2T7OJF6c7_NCQnwGJyuBEd6cLh1zm6gnyo5G8Nsap6SnOcpurKjGQQ2n46Klam7ElppTOG1XkTRBVKWLi1QtpmJwWqizjcrMxA4iBIghmTJvccaTa7eh8D_CwM9OA.webp" alt="솔랑케" weight = "200" height ="200" ></li>
+                <li>원톱</li>
+                <li>공격수</li>
+                <li>뻥글</li>
+            </ul>
+            <br>
+            <li>존슨</li>
+            <table border = "1" >
+                <tr>
+                    <td> 1행 1열 </td>
+                    <td> 1행 2열 </td>
+                    <td> 1행 2열 </td>
+                </tr>
+                <tr>
+                    <td> 우윙 </td>
+                    <td> 공격수 </td>
+                    <td> 웨일스 </td>
+            </table>
+            <br>
+
+
+            <li>토트넘 메디슨</li>
+            <table>
+                <caption><strong>메디슨 프로필</strong></caption>
+                <tr>
+                    <td colspan = "3"></td>
+                </tr>
+
+                <tr>
+                    <th>이름</th>
+                    <th>포지션</th>
+                    <th>국적</th>
+                </tr>
+                <tr>
+                    <td>메디슨</td>
+                    <td>공격형 미드필더</td>
+                    <td>잉글랜드</td>
+                </tr>
+            </table>
+            <li>
+
+
+
+                <table border = "1">
+                    <tr>
+                        <th>1행 1열</th>
+                        <th>1행 2열</th>
+                        <th>1행 3열</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">2행 1열 </td> <!-- rowspan = "2" 2행 1열 저거 아래 밀려나가는 모습을 볼수있음 -->
+                        <td>2행 2열</td>
+                        <td>2행 3열</td>
+                    </tr>
+                    <tr>
+                        <td>3행 1열</td> <!--밀려나가 3행 4열로 가게댐 3열이 한칸씩 밀림 -->
+                        <td>3행 2열</td>
+                        <td>3행 3열</td>
+                </table>
+            </li>
+            <br>
+            <li><img src = "cola.png" width = "200" height="200"></li>
+            <li><img src = "cola.png" width = "200" height="200"></li>
+        </ul>
+    </div>
+
+    <div>
+        <!--정의 목록 <dl> <dt> 정의 <dd> 설명 -->
+        <dl>
+            <h1>정렬된 목록</h1>
+            <dt>사실무근</dt> <dd>진짜 애바임</dd> <dd>24세</dd>
+            <dt>취미</dt>
+            <dd>게임, 영화감상</dd>
+        </dl>
+    </div>
+    <div>
+        <!--중첩목록-->
+         <ul>
+            <h1>중첩목록</h1>
+            <li>토트넘</li>
+            <ul>
+                <li>손흥민</li>
+                <li>메디슨</li>
+                <li>존슨</li>
+            </ul>
+            <li>리버풀</li>
+            <ul>
+                <li>사디오 마네</li>
+                <li>다르윈 누녜스</li>
+            </ul>
+         </ul>
+
+    </div>
+</body>    
+
+
+
+
+
+</head>
